@@ -1,0 +1,61 @@
+
+<!-- check out -->
+<div class="checkout">
+	<div class="container">
+		<h3>My Shopping Bag</h3>
+		<div class="table-responsive checkout-right animated wow slideInUp" data-wow-delay=".5s">
+			<table class="timetable_sub">
+				<thead>
+					<tr>
+						<th>Remove</th>
+						<th>Product</th>
+						<th>Quantity</th>
+						<th>Product Name</th>
+						<th>Price</th>
+					</tr>
+				</thead >
+					
+                    <tr class="rem1" *ngFor="let hero of heroes; let i:index" >
+						<td class="invert-closeb">
+							<div class="rem">
+								<div (click)="delete(hero); $event.stopPropagation()" class="close1"> </div>
+							</div>
+							
+						</td>
+						<td class="invert-image"><a  [routerLink]="['/detail', hero.id]"><img src="{{hero.url}}" alt=" " class="img-responsive" /></a></td>
+						<td class="invert">
+							 <div class="quantity"> 
+								<div class="quantity-select">                           
+									<div class="entry value-minus" (click)="DecreaseVal(hero)">&nbsp;</div>
+									<div class="entry value"><span>{{hero.count}}</span></div>
+									<div class="entry value-plus active" (click)="IncreaseVal(hero)">&nbsp;</div>
+								</div>
+							</div>
+						</td>
+						<td class="invert">{{hero.name}}</td>
+						<td class="invert" >Rs {{hero.offer_price*hero.count}}</td>
+					</tr>
+			
+			</table>
+		</div>
+		<div class="checkout-left">	
+				
+				<div class="checkout-right-basket animated wow slideInRight" data-wow-delay=".5s">
+					<a routerLink="/dashboard"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Back To Shopping</a>
+				</div>
+				<div class="checkout-left-basket animated wow slideInLeft" data-wow-delay=".5s">
+					<h4>Shopping basket</h4>
+		        	<ul *ngFor="let hero of heroes; let i=index">
+	                 <li>{{hero.name}} <i>-</i> <span>Rs  {{hero.offer_price*hero.count}}</span></li>
+                   			
+				   </ul>
+					<ul>
+						<li>Total <i>-</i> <span>{{total}}</span></li>
+					</ul>	
+					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+	</div>
+</div>
+

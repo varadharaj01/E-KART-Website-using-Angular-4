@@ -1,0 +1,56 @@
+{
+  "data":{
+   
+      
+  "productlist":
+      {
+            "category2":
+              [
+{ "id": 11, "name": "collar tshirt", "offer_price":500, "original_price":"630", "url":"asset/images/ctshirt.jpg","category":"Men", "type":"Dresses", "count":1 },
+{ "id": 12, "name": "pant", "offer_price":520, "original_price":"620", "url":"asset/images/pant.jpg", "category":"Men", "type":"Dresses", "count":1 },
+{ "id": 13, "name": "shirt", "offer_price":660, "original_price":"700", "url":"asset/images/g3.png", "category":"Men", "type":"Dresses", "count":1 },
+{ "id": 14, "name": "round neck tshirts", "offer_price":300, "original_price":"500", "url":"asset/images/mw2.png", "category":"Men", "type":"Dresses", "count":1 },
+{ "id": 15, "name": "sandals", "offer_price":800, "original_price":"1000", "url":"asset/images/mw1.png", "category":"Men", "type":"Foot Wear", "count":1 },
+{ "id": 16, "name": "shoes", "offer_price":1600, "original_price":"2000", "url":"asset/images/mw3.png", "category":"Men", "type":"Foot Wear", "count":1 },
+{ "id": 17, "name": "watch", "offer_price":850, "original_price":"1100", "url":"asset/images/ep1.png", "category":"Men", "type":"Watch", "count":1 },
+{ "id": 18, "name": "wedding blazers", "offer_price":6000, "original_price":"8000", "url":"asset/images/a8.png", "category":"Men", "type":"Dresses", "count":1 },
+{ "id": 19, "name": "over coat", "offer_price":2000, "original_price":"2500", "url":"asset/images/g2.png", "category":"Men", "type":"Dresses", "count":1 },
+{ "id": 20, "name": "blazers", "offer_price":5000, "original_price":"5500", "url":"asset/images/a2.png", "category":"Men", "type":"Dresses" }
+                
+              
+              ],
+               "category1":
+              [
+{ "id": 21, "name": "women shirt", "offer_price":500, "original_price":"630", "url":"asset/images/a3.png","category":"Women", "type":"Dresses", "count":1 },
+{ "id": 22, "name": "women pant", "offer_price":520, "original_price":"620", "url":"asset/images/wpant.png", "category":"Women", "type":"Dresses", "count":1 },
+{ "id": 23, "name": "western wear", "offer_price":660, "original_price":"700", "url":"asset/images/a7.png", "category":"Women", "type":"Dresses", "count":1 },
+{ "id": 24, "name": "round neck tshirts", "offer_price":300, "original_price":"500", "url":"asset/images/a5.png", "category":"Women", "type":"Dresses", "count":1 },
+{ "id": 25, "name": "women sandals", "offer_price":800, "original_price":"1000", "url":"asset/images/w1.png", "category":"Women", "type":"Foot Wear", "count":1 },
+{ "id": 26, "name": "women top", "offer_price":1600, "original_price":"2000", "url":"asset/images/a4.png", "category":"Women", "type":"Dresses", "count":1 },
+{ "id": 27, "name": "women watch", "offer_price":850, "original_price":"1200", "url":"asset/images/ep3.png", "category":"Women", "type":"Watch", "count":1 },
+{ "id": 28, "name": "wedding saree", "offer_price":6000, "original_price":"8000", "url":"asset/images/saree.png", "category":"Women", "type":"Dresses", "count":1 },
+{ "id": 29, "name": "hand bag", "offer_price":2000, "original_price":"2500", "url":"asset/images/w3.png", "category":"Women", "type":"Bag", "count":1 },
+{ "id": 30, "name": "women watch", "offer_price":2000, "original_price":"3500", "url":"asset/images/ep3.png", "category":"Women", "type":"Watch" }
+           
+                
+                ],
+             "category3":
+             [
+{ "id": 31, "name": "apple 6", "offer_price":35000, "original_price":"80000", "url":"asset/images/ph1.png","category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 32, "name": "apple 6s", "offer_price":40000, "original_price":"85000", "url":"asset/images/ph2.png", "category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 33, "name": "apple 7", "offer_price":50000, "original_price":"90000", "url":"asset/images/ph3.png", "category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 34, "name": "apple 8", "offer_price":70000, "original_price":"95000", "url":"asset/images/ph4.png", "category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 35, "name": "apple x", "offer_price":90000, "original_price":"100000", "url":"asset/images/applex.png", "category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 36, "name": "samsung galaxzy 8", "offer_price":16000, "original_price":"20000", "url":"asset/images/sam8.png", "category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 37, "name": "asus zenfone", "offer_price":8500, "original_price":"12000", "url":"asset/images/asus1.png", "category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 38, "name": "nokia 8", "offer_price":16000, "original_price":"18000", "url":"asset/images/nokia8.png", "category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 39, "name": "sony xperia", "offer_price":20000, "original_price":"25000", "url":"asset/images/sony1.png", "category":"Electronics", "type":"Phone", "count":1 },
+{ "id": 40, "name": "lg g5", "offer_price":20000, "original_price":"35000", "url":"asset/images/lg1.png", "category":"Electronics", "type":"Phone", "count":1 }
+
+             ]
+
+              
+          }
+   
+  }
+}
